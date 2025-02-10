@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+        <Row Tag="LOC_MOD_DISCOVERY_LENS_NAME">
+            <Text>Discovery Lens</Text>
+        </Row>
+        <Row Tag="LOC_MOD_DISCOVERY_LENS_DESCRIPTION">
+            <Text>An additional lens for highlighting discoveries, like caves and ruins.</Text>
+        </Row>
+    </EnglishText>
+</Database>

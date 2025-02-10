@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database>
+  <LocalizedText>
+    <Replace Tag="LOC_MOD_DISCOVERY_LENS_NAME" Language="zh_Hans_CN">
+      <Text>发现滤镜</Text>
+    </Replace>
+    <Replace Tag="LOC_MOD_DISCOVERY_LENS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>新的滤镜来高亮发现，比如洞穴和遗迹。</Text>
+    </Replace>
+  </LocalizedText>
+</Database>
