@@ -42,7 +42,11 @@ class DiscoveryLensLayer {
         this.clearOverlay();
     }
     hasDiscovery(plotX, plotY) {
-        const constructibles = MapConstructibles.getConstructibles(plotX, plotY);
+        const isHidden = GameplayMap.getRevealedState(GameContext.localPlayerID, plotX, plotY) == RevealedStates.HIDDEN;
+        if (isHidden) {
+            return false;
+        }
+        const constructibles = MapConstructibles.getHiddenFilteredConstructibles(plotX, plotY);
         if (constructibles.length == 0) {
             return false;
         }
