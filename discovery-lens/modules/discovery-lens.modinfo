@@ -24,6 +24,9 @@
                     <Item>ui/lenses/lens/discovery-lens.js</Item>
                     <Item>ui/mini-map/panel-mini-map.js</Item>
                 </UIScripts>
+                <UpdateText>
+                    <Item>text/en_us/UIText.xml</Item>
+                </UpdateText>
             </Actions>
         </ActionGroup>
     </ActionGroups>
