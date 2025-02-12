@@ -126,6 +126,7 @@ class UnitSelectedInterfaceMode {
                         break;
                     // wltk START
                     case "UNIT_SCOUT":
+                    case "UNIT_JAGUAR_SLAYER":
                         LensManager.setActiveLens('mod-discovery-lens');
                         break;
                     // wltk END
