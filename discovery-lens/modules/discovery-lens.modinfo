@@ -19,14 +19,13 @@
         <ActionGroup id="game-discovery-lens" scope="game" criteria="always">
             <Actions>
                 <UIScripts>
-                    <Item>ui/interface-modes/interface-mode-unit-selected.js</Item>
+                    <Item>ui/dl/unit-selection-listener.js</Item>
                     <Item>ui/lenses/layer/discovery-layer.js</Item>
                     <Item>ui/lenses/lens/discovery-lens.js</Item>
-                    <Item>ui/mini-map/panel-mini-map.js</Item>
+                    <Item>ui/mini-map/dl-panel-mini-map.js</Item>
                 </UIScripts>
                 <UpdateText>
                     <Item>text/en_us/UIText.xml</Item>
-
                     <Item locale="zh_Hans_CN">l10n/UIText.xml</Item>
                 </UpdateText>
             </Actions>

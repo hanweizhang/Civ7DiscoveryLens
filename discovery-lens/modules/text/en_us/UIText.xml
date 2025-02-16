@@ -2,7 +2,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
     <EnglishText>
-        <Row Tag="LOC_HOF_CATEGORY_DISCOVERY">
+        <Row Tag="LOC_DISCOVERY">
             <Text>Discovery</Text>
         </Row>
     </EnglishText>
