@@ -8,7 +8,7 @@ function isScout(type) {
             return true;
         } else {
             // Check for replacements
-            const replaceDef = GameInfo.UnitReplaces.lookup(unit.type);
+            const replaceDef = GameInfo.UnitReplaces.lookup(type);
             if (replaceDef != null && replaceDef.ReplacesUnitType == "UNIT_SCOUT") {
                 return true;
             }
