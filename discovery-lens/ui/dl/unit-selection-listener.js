@@ -1,5 +1,5 @@
 import LensManager from '/core/ui/lenses/lens-manager.js';
-import { InterfaceMode, InterfaceModeChangedEventName } from '/core/ui/interface-modes/interface-modes.js';
+import { InterfaceMode } from '/core/ui/interface-modes/interface-modes.js';
 
 function isScout(type) {
     const unitDef = GameInfo.Units.lookup(type);
@@ -16,17 +16,18 @@ function isScout(type) {
     }
     return false;
 }
-function onInterfaceModeChanged() {
-    if (InterfaceMode.isInInterfaceMode('INTERFACEMODE_UNIT_SELECTED')) {
-        const unitId = UI.Player.getHeadSelectedUnit();
-        if (unitId) {
-            const unit = Units.get(unitId);
+function onUnitSelectionChanged(data) {
+    if (data == null) {
+        return;
+    }
+    // Perform action after other listeners get executed.
+    setTimeout(() => {
+        if (data.selected && InterfaceMode.isInInterfaceMode('INTERFACEMODE_UNIT_SELECTED')) {
+            const unit = Units.get(data.unit);
             if (unit && isScout(unit.type)) {
                 LensManager.setActiveLens('mod-discovery-lens');
             }
         }
-    }
+    });
 }
-// Not listening to "UnitSelectionChanged" event because interface-mode-unit-selected.js's listener will be
-// registered after the interface is changed. Hence it's setUnitLens method will reset the lens to default.
-window.addEventListener(InterfaceModeChangedEventName, onInterfaceModeChanged);
+engine.on('UnitSelectionChanged', onUnitSelectionChanged);

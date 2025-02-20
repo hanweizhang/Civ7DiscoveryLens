@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database>
+  <LocalizedText>
+    <Replace Tag="LOC_DISCOVERY" Language="de_DE">
+      <Text>Entdeckung</Text>
+    </Replace>
+    <Replace Tag="LOC_DISCOVERY" Language="es_ES">
+      <Text>Descubrimiento</Text>
+    </Replace>
+    <Replace Tag="LOC_DISCOVERY" Language="fr_FR">
+      <Text>Découverte</Text>
+    </Replace>
+    <Replace Tag="LOC_DISCOVERY" Language="it_IT">
+      <Text>Scoperta</Text>
+    </Replace>
+    <Replace Tag="LOC_DISCOVERY" Language="ja_JP">
+      <Text>発見</Text>
+    </Replace>
+    <Replace Tag="LOC_DISCOVERY" Language="ko_KR">
+      <Text>발견</Text>
+    </Replace>
+    <Replace Tag="LOC_DISCOVERY" Language="pl_PL">
+      <Text>Odkrycia</Text>
+    </Replace>
+    <Replace Tag="LOC_DISCOVERY" Language="pt_BR">
+      <Text>Descoberta</Text>
+    </Replace>
+    <Replace Tag="LOC_DISCOVERY" Language="ru_RU">
+      <Text>Открытия</Text>
+    </Replace>
+    <Replace Tag="LOC_DISCOVERY" Language="zh_Hans_CN">
+      <Text>发现</Text>
+    </Replace>
+    <Replace Tag="LOC_DISCOVERY" Language="zh_Hant_HK">
+      <Text>探索</Text>
+    </Replace>
+  </LocalizedText>
+</Database>
