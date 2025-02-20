@@ -26,13 +26,13 @@
                 </UIScripts>
                 <UpdateText>
                     <Item>text/en_us/UIText.xml</Item>
-                    <Item locale="zh_Hans_CN">l10n/UIText.xml</Item>
+                    <Item>l10n/UIText.xml</Item>
                 </UpdateText>
             </Actions>
         </ActionGroup>
     </ActionGroups>
-	<LocalizedText>
-		<File>text/en_us/ModuleText.xml</File>
-		<File>l10n/ModuleText.xml</File>
-	</LocalizedText>
+    <LocalizedText>
+        <File>text/en_us/ModuleText.xml</File>
+        <File>l10n/ModuleText.xml</File>
+    </LocalizedText>
 </Mod>
