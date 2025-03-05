@@ -22,7 +22,7 @@
                     <Item>ui/dl/unit-selection-listener.js</Item>
                     <Item>ui/lenses/layer/discovery-layer.js</Item>
                     <Item>ui/lenses/lens/discovery-lens.js</Item>
-                    <Item>ui/mini-map/dl-panel-mini-map.js</Item>
+                    <Item>ui/mini-map/dl-lens-panel-decorator.js</Item>
                 </UIScripts>
                 <UpdateText>
                     <Item>text/en_us/UIText.xml</Item>

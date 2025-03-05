@@ -1,6 +1,5 @@
-// Hook up to original panel-mini-map component. Inspired by @craimasjien.
 
-export class DL_PanelMiniMapDecorator {
+export class DL_LensPanelDecorator {
 
     constructor(component) {
         this.component = component;
@@ -20,4 +19,4 @@ export class DL_PanelMiniMapDecorator {
     }
 }
 
-Controls.decorate('panel-mini-map', (component) => new DL_PanelMiniMapDecorator(component));
+Controls.decorate('lens-panel', (component) => new DL_LensPanelDecorator(component));
