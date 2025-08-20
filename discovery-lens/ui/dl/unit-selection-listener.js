@@ -1,4 +1,4 @@
-import LensManager from '/core/ui/lenses/lens-manager.js';
+import { L as LensManager } from '/core/ui/lenses/lens-manager.chunk.js';
 import { InterfaceMode } from '/core/ui/interface-modes/interface-modes.js';
 
 function shouldApplyLens(type) {

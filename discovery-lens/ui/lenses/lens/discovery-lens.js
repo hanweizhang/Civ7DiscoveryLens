@@ -3,7 +3,7 @@
  * @copyright wltk
  * @description Lens shown to highlight discoveries.
  */
-import LensManager from '/core/ui/lenses/lens-manager.js';
+import { L as LensManager } from '/core/ui/lenses/lens-manager.chunk.js';
 class DiscoveryLens {
     constructor() {
         this.activeLayers = new Set([

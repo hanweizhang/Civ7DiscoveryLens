@@ -3,7 +3,8 @@
  * @copyright wltk
  * @description Lens layer to highlight discoveries.
  */
-import LensManager from '/core/ui/lenses/lens-manager.js';
+import { L as LensManager } from '/core/ui/lenses/lens-manager.chunk.js';
+
 // From appeal-layer.js
 const HexToFloat4 = (hex, alpha = 1) => {
     const r = (hex >> 16) & 0xff;
